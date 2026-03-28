@@ -23,6 +23,34 @@ This repository includes five specialized Bash scripts designed to demonstrate L
 
 ### 1. Clone the Repository
 Open your terminal and run:
-```bash
-git clone [https://github.com/](https://github.com/)[your-github-username]/oss-audit-24BAI10329.git
-cd oss-audit-24BAI10329
+
+git clone [https://github.com/](https://github.com/)ujjawalrai-ai/Ngmc-project.git
+cd Ngmc-project
+### 2. Grant Executable Permissions
+Before running, you must give the scripts permission to execute:
+
+
+chmod +x *.sh
+
+### 3. Execute the Scripts
+Run each script using the following commands:
+
+System Report: ./script1_identity.sh
+
+Check VLC: ./script2_inspector.sh
+
+Audit Directories: ./script3_auditor.sh
+
+Analyze Logs: ./script4_log_analyzer.sh
+
+Generate Manifesto: ./script5_manifesto.sh
+
+Dependencies
+Operating System: Linux (Ubuntu, Debian, or RHEL preferred).
+
+Interpreter: Bash Shell (/bin/bash).
+
+Core Utilities: grep, awk, du, dpkg (or rpm), and cut.
+
+### Conclusion
+This audit demonstrates that VLC is more than a media player; it is a testament to the power of community-driven, transparent development. Through these scripts, I have verified the accessibility and modularity that makes VLC a cornerstone of the FOSS ecosystem. This project confirms that open-source software provides superior auditability and freedom compared to proprietary alternatives.
